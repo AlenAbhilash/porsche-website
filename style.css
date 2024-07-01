@@ -1,0 +1,327 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.porsche {
+    margin-left: 400px;
+}
+
+.messsagee {
+    display: flex;
+}
+
+#mess {
+    display: inline-block;
+}
+
+.cricle {
+    z-index: 9999;
+    position: fixed;
+    display: inline-block;
+    margin-left: 1180px;
+    border-color: rgb(71, 69, 69);
+    width: 60px;
+    height: 60px;
+    background-color: rgb(71, 69, 69);
+    border-radius: 50%;
+    border: 4px solid rgb(71, 69, 69);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.msg {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#bannerdes {
+    width: 700px;
+    margin-right: 1000px;
+}
+
+#bannerdes h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#bannerdes p {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.Modelsh {
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars {
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+#modelimagescar {
+    position: absolute;
+    object-fit: cover;
+    height: 330px;
+    width: 500px;
+}
+
+.modelimage {
+    display: inline-block;
+    top: 7%;
+    left: 4%;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    color: white;
+}
+
+#modelimage {
+    top: 7%;
+    left: 4%;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    color: white;
+}
+
+.black {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(108, 106, 106);
+    padding: 10px;
+}
+
+.Bulid {
+    width: 170px;
+    height: 45px;
+    margin-top: 130px;
+    left: 2%;
+    position: relative;
+    font-weight: 400;
+    background-color: white;
+    border-color: transparent;
+    transition: all 0.6s ease-in;
+}
+
+.Bulid:hover {
+    background-color: red;
+    color: white;
+}
+
+.boxarrow {
+    height: 25px;
+    width: 25px;
+}
+
+.allmodels {
+    width: 170px;
+    height: 45px;
+    margin-top: 130px;
+    left: 3%;
+    position: relative;
+    font-weight: 400;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition: all 0.6s ease-in;
+}
+
+.arrow {
+    height: 15px;
+    width: 15px;
+}
+
+.allmodels:hover {
+    color: red;
+    border-color: red;
+}
+
+.find {
+    position: relative;
+    left: 37%;
+    width: 170px;
+    height: 45px;
+    border-color: transparent;
+    background-color: rgb(40, 38, 38);
+    color: white;
+    transition: all 0.6s ease-in;
+}
+
+.find:hover {
+    background-color: red;
+}
+
+.findimgs {
+    position: absolute;
+}
+
+.shopimg1 {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.shoptool1 {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#shop {
+    display: inline-block;
+}
+
+.shopimg2 {
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.shopimg3 {
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    width: 300px;
+}
+
+.discoverimg {
+    height: 250px;
+    transition: all 0.2s ease-in;
+}
+
+.col-3:hover .discoverimg,
+.col-2:hover .discoverimg {
+    border-bottom: 4px solid red;
+}
+
+.redcolour:hover {
+    color: red;
+}
+
+#Socialimg {
+    transition: all 0.2s ease-in;
+}
+
+#Socialimg:hover {
+    opacity: 70%;
+    border-bottom: 4px solid red;
+}
+
+.hrfind {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    border: 1.5px solid black;
+}
+
+.Build {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+.bindul {
+    margin-left: 30px;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.square {
+    width: 300px;
+    height: 45px;
+    background-color: rgb(71, 69, 69)
+}
+
+.share {
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.page {
+    position: relative;
+    top: 10%;
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.square:hover {
+    background-color: red;
+}
+
+.connect {
+    width: 50px;
+    height: 45px;
+    background-color: rgb(71, 69, 69);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.socilamedia {
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.connectmain {
+    display: flex;
+    gap: 10px;
+}
+
+.connect:hover {
+    background-color: red;
+}
+
+.country {
+    font-weight: 550;
+    color: white;
+}
+
+#selectfooter {
+    width: 300px;
+    height: 45px;
+    background-color: rgb(48, 48, 48);
+    border-color: transparent;
+    color: white;
+}
+
+.select {
+    display: flex;
+    gap: 15px;
+}
+
+.copyright {
+    color: white;
+}
